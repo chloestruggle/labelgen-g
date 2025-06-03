@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+````markdown
+# LabelGen-G
 
-## Getting Started
+[![MIT License](https://img.shields.io/github/license/chloestruggle/labelgen-g)](LICENSE)
+[![Made with Next.js](https://img.shields.io/badge/Built%20With-Next.js-black?logo=next.js)](https://nextjs.org)
+[![Monero Accepted](https://img.shields.io/badge/Donations-Monero-orange?logo=monero)](#donate)
 
-First, run the development server:
+Because generating shipping labels shouldn't require a bloated GUI, an NDA, or a prayer to the SaaS gods.  
+This is a raw, scriptable label generator for DHL, FedEx, DPD, and more.  
+Built with Next.js, but not for influencers — for automation.
+
+---
+
+## ⚙️ Getting Started
+
+Run the dev server like a civilized person:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm run dev  # or yarn dev, pnpm dev, bun dev — pick your poison
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser (if you haven’t firewalled it off yet).
+Edit `app/page.tsx` to update content — hot reload does its thing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Stack Info
 
-## Learn More
+* **Framework**: [Next.js](https://nextjs.org)
+* **Fonts**: [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) + [Geist](https://vercel.com/font)
+* **Design**: No fancy animations. No UI bloat. Built for headless automation.
+* **Usage**: Ideal for terminal-pilled sysadmins, script kiddies with taste, or anyone allergic to corporate APIs.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> *Coming soon: maybe one screenshot, maybe none. You’re supposed to run it, not look at it.*
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Learn More
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* [Next.js Docs](https://nextjs.org/docs) — if you're fresh.
+* [Next.js GitHub](https://github.com/vercel/next.js) — if you're angry.
+
+---
+
+## 🚀 Deployment
+
+Use [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+Or better yet: spin up your own VPS, route through Tor, self-host like it's 2009.
+
+---
+
+## 🔒 Donate (Optional)
+
+If this saved you time, frustration, or a few grams of sanity:
+
+> XMR address available upon request — PGP-encrypted only.
+> I don’t post it publicly. Practice your own OPSEC.
+
+---
+
+## 🧠 Reminder
+
+This tool is for educational and research purposes only.
+Use responsibly, and keep it legal — or at least plausible deniability tier.
+
+---
+
+## License
+
+[MIT](LICENSE) — do whatever you want, just don’t blame me when DHL knocks on your door.
